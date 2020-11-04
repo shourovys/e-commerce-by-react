@@ -1,0 +1,14 @@
+.shop {
+  display: flex;
+}
+.product-container {
+  flex-basis: 75%;
+  padding: 0 1rem;
+}
+.cart-container {
+  position: sticky;
+  top: 0.4rem;
+  flex-basis: 24%;
+  padding-left: 0.4rem;
+  border-left: 1px solid lightgray;
+}

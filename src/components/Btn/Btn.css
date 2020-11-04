@@ -1,0 +1,19 @@
+.btn {
+  display: block;
+  padding: 0.3rem 0.8rem;
+  margin: 0.8rem 0;
+  background-color: #ff9800;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  width: 12rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.btn:active {
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0);
+}

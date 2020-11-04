@@ -1,0 +1,10 @@
+.order {
+  display: flex;
+}
+.orderProduct {
+  padding: 0 1.3rem;
+}
+.bottom {
+  display: flex;
+  flex-direction: column-reverse;
+}

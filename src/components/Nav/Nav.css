@@ -1,0 +1,25 @@
+#nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 3rem;
+  width: 100vw;
+  list-style: none;
+}
+.nav-item {
+  margin-right: 0.9rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #fff;
+  color: black;
+  border-radius: 6px;
+}

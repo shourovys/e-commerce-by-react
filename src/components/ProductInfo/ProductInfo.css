@@ -1,0 +1,10 @@
+.productInfo {
+}
+.this-product-info {
+  display: flex;
+  padding: 0 6rem;
+}
+.this-product-info > img {
+  width: 20rem;
+  margin-right: 1.6rem;
+}

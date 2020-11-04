@@ -1,0 +1,50 @@
+.product {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid lightgray;
+}
+.img {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+.info {
+  flex-basis: 75%;
+  height: 100%;
+  width: 100%;
+  padding-left: 0.6rem;
+}
+.name {
+  margin: 0.7rem 0;
+  color: #0a48b4;
+}
+
+.tow-side-con {
+  display: flex;
+}
+
+.lift-side {
+  flex-basis: 40%;
+}
+.right-side {
+  flex-basis: 60%;
+}
+p {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  font-weight: 480;
+}
+.price {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #bb0000;
+  margin: 0.4rem 0;
+}
+.right-side ul {
+  padding-left: 2rem;
+  list-style: none;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}

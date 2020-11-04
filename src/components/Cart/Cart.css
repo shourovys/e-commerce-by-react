@@ -1,0 +1,13 @@
+.cart {
+  text-align: center;
+  width: 90%;
+  margin: 0 0.5rem;
+}
+.cart p {
+  display: flex;
+  justify-content: space-between;
+}
+.cart hr {
+  color: black;
+  margin: 0.4rem 0;
+}

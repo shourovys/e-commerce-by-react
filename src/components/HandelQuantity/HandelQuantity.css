@@ -1,0 +1,29 @@
+.HandelQuantity {
+  border: 1px solid lightgray;
+  background-color: #878787;
+  border-radius: 28px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 8rem;
+  margin: 0.4rem 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.plus,
+.minus {
+  font-size: 1.3rem;
+  margin: 0.3rem 0.2rem;
+  cursor: pointer;
+}
+
+.minus:active {
+  color: rgb(241, 43, 43);
+}
+.plus:active {
+  color: rgb(25, 133, 241);
+}
+.quantity {
+  font-size: 1.3rem;
+  margin: 0.3rem 0.4rem;
+}

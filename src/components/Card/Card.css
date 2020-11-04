@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 15rem;
+  margin: 0.6rem 0.6rem;
+  height: 30rem;
+  padding-bottom: 0.6rem;
+}
+
+.card-info {
+  padding: 0.3rem 0.8rem;
+}
